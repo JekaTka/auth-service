@@ -7,6 +7,7 @@ import (
 	"github.com/JekaTka/auth-service/api"
 	db "github.com/JekaTka/auth-service/db/sqlc"
 	"github.com/JekaTka/auth-service/util"
+	_ "github.com/lib/pq"
 )
 
 func main() {
